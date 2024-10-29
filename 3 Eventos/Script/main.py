@@ -7,10 +7,10 @@ from kivy.clock import Clock
 
 class MiApp(App):
     def build(self):
-        # event = Clock.schedule_interval(md.mi_llamada, 1 / 30)
+        # event = Clock.schedule_interval(md.mi_llamada, 1 / 30) #evento iterativo periodico
         # Clock.unschedule(event) #event.cancel() hace lo mismo
         
-        # event = Clock.schedule_once(md.mi_llamada, 1)
+        # event = Clock.schedule_once(md.mi_llamada, 1) #evento unico
         # Clock.unschedule(event)
         
         # contador = 0
@@ -21,7 +21,7 @@ class MiApp(App):
         #         Clock.unschedule(event)
         #         break
 
-        # event = Clock.schedule_once(md.mi_llamada_doble, 1)
+        # event = Clock.schedule_once(md.mi_llamada_multiple, 1) #evento anidado(reverbera)
         # Clock.unschedule(event)
 
         # trigger = Clock.create_trigger(md.mi_llamada)
